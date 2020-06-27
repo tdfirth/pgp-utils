@@ -5,12 +5,12 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pgp-utils",
-    version="0.0.1",
+    version="1.0.0",
     author="Tom Firth",
     description="A small utility to wrap up common pgp/yubikey operations.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/tdfirth/pgp_utils",
+    url="https://github.com/tdfirth/pgp-utils",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
