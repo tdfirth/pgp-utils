@@ -1,6 +1,6 @@
 .SILENT: build upload
 
-build: pgp_utils.py
+build: src
 	python3 setup.py sdist bdist_wheel
 
 upload:

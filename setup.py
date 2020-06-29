@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pgp-utils",
-    version="1.0.0",
+    version="1.0.1",
     author="Tom Firth",
     description="A small utility to wrap up common pgp/yubikey operations.",
     long_description=long_description,
@@ -18,5 +18,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.6",
-    entry_points={"console_scripts": ["pgp-utils=pgp_utils:main"]},
+    entry_points={"console_scripts": ["pgp-utils=src.pgp_utils:main"]},
 )
